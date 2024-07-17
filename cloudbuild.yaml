@@ -29,3 +29,6 @@ steps:
 
 images:
 - 'gcr.io/chatgptdata-425219/sso-app'
+options:
+  logging: GCS_ONLY
+  logsBucket: 'gs://chatgptdata-425219_cloudbuild-logs'
